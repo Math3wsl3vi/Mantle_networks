@@ -482,6 +482,10 @@
     font-weight: 500;
 }
 
+.new-packages{
+    display: none;
+}
+
 @media (max-width:1280px){
     .package-col{
        display: flex;
@@ -489,6 +493,15 @@
        flex-basis: 1;
        column-gap: 20px;
     }
+}
+
+@media (max-width:500px){
+    .packages{
+        display: none;
+    }
+   .new-packages{
+    display: block
+   }
 }
 /*---contact--*/
 .contact{
@@ -774,6 +787,19 @@
         margin-top: 20px;
     }
     
+}
+
+@media (max-width:500px){
+    .copyright-new{
+        font-size:14px ;
+    }
+    .footer-contact-icons i{
+        font-size: 20px;
+        margin-right: 7px;
+    }
+    .new-footer{
+        margin-bottom: 0;
+    }
 }
 
 
